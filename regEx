@@ -1,0 +1,13 @@
+//from https://pastebin.com/RS5ubqvv
+
+// At least one letter (any case)
+regEx = /(?=.*[a-zA-Z])/
+
+// At least one letter and one number
+regEx = /(?=.*\d)(?=.*[a-zA-Z])/
+
+// At least one uppercase letter, one lowercase letter and one number
+regEx = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/
+
+// At least one uppercase letter, one lowercase letter, one number and one special character (symbol)
+regEx = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)/
